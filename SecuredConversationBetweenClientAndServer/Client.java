@@ -11,7 +11,7 @@ public class Client {
 	public static void main(String args[]) throws Exception {
 		KeyPair pair = new KeyPair();
 		
-		final String serverAddress = "10.12.79.173";
+		final String serverAddress = "I.P. Address"; //Here goes server's ip address to b e connected
         final int serverPort = 12345;
 
         try (Socket socket = new Socket(serverAddress, serverPort)) {
